@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink D:\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Keith\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Keith\\AppData\\Local\\Temp\\npm-9136-N6FAqSwZ\\1406443634828-0.3584726813714951\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+13 verbose folder .
+14 info prepublish generator-gulpx@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Keith\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 7d87d6a8-34828-0-3584726813714951-tmp-tgz tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+18 verbose lock tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz C:\Users\Keith\AppData\Roaming\npm-cache\7d87d6a8-34828-0-3584726813714951-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 7d87d6a8-34828-0-3584726813714951-tmp-tgz tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+22 silly lockFile 7d87d6a8-34828-0-3584726813714951-tmp-tgz tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+23 verbose tar unpack C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+24 silly lockFile 8f449d3a-he-generator-gulpx-0-0-1-package tar://C:\Users\Keith\AppData\Roaming\npm-cache\generator-gulpx\0.0.1\package
+25 verbose lock tar://C:\Users\Keith\AppData\Roaming\npm-cache\generator-gulpx\0.0.1\package C:\Users\Keith\AppData\Roaming\npm-cache\8f449d3a-he-generator-gulpx-0-0-1-package.lock
+26 silly lockFile 7d87d6a8-34828-0-3584726813714951-tmp-tgz tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+27 verbose lock tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz C:\Users\Keith\AppData\Roaming\npm-cache\7d87d6a8-34828-0-3584726813714951-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+33 silly gunzTarPerm extractEntry app/index.js
+34 silly gunzTarPerm modified mode [ 'app/index.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry app/templates/gulpfile.js
+36 silly gunzTarPerm modified mode [ 'app/templates/gulpfile.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry app/templates/_bower.json
+38 silly gunzTarPerm modified mode [ 'app/templates/_bower.json', 438, 420 ]
+39 silly gunzTarPerm extractEntry app/templates/_package.json
+40 silly gunzTarPerm modified mode [ 'app/templates/_package.json', 438, 420 ]
+41 silly gunzTarPerm extractEntry app/templates/editorconfig
+42 silly gunzTarPerm modified mode [ 'app/templates/editorconfig', 438, 420 ]
+43 silly gunzTarPerm extractEntry app/templates/index.html
+44 silly gunzTarPerm modified mode [ 'app/templates/index.html', 438, 420 ]
+45 silly gunzTarPerm extractEntry app/templates/jshintrc
+46 silly gunzTarPerm modified mode [ 'app/templates/jshintrc', 438, 420 ]
+47 silly lockFile 8f449d3a-he-generator-gulpx-0-0-1-package tar://C:\Users\Keith\AppData\Roaming\npm-cache\generator-gulpx\0.0.1\package
+48 silly lockFile 8f449d3a-he-generator-gulpx-0-0-1-package tar://C:\Users\Keith\AppData\Roaming\npm-cache\generator-gulpx\0.0.1\package
+49 silly lockFile 7d87d6a8-34828-0-3584726813714951-tmp-tgz tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+50 silly lockFile 7d87d6a8-34828-0-3584726813714951-tmp-tgz tar://C:\Users\Keith\AppData\Local\Temp\npm-9136-N6FAqSwZ\1406443634828-0.3584726813714951\tmp.tgz
+51 silly lockFile 3a52ce78- .
+52 silly lockFile 3a52ce78- .
+53 silly publish { name: 'generator-gulpx',
+53 silly publish   version: '0.0.1',
+53 silly publish   description: 'A yeoman generator with gulp livereload',
+53 silly publish   license: 'MIT',
+53 silly publish   main: 'app/index.js',
+53 silly publish   repository: { type: 'git', url: 'git://github.com/keith3/generator-gulpx' },
+53 silly publish   author:
+53 silly publish    { name: 'lufeng',
+53 silly publish      email: 'lufengd3@gmail.com',
+53 silly publish      url: 'https://github.com/keith3' },
+53 silly publish   engines: { node: '>=0.10.0' },
+53 silly publish   scripts: { test: 'mocha' },
+53 silly publish   files: [ 'app' ],
+53 silly publish   keywords: [ 'yeoman-generator' ],
+53 silly publish   dependencies:
+53 silly publish    { 'yeoman-generator': '~0.16.0',
+53 silly publish      chalk: '~0.4.0',
+53 silly publish      yosay: '^0.1.0' },
+53 silly publish   devDependencies: { mocha: '*' },
+53 silly publish   peerDependencies: { yo: '>=1.0.0' },
+53 silly publish   readme: '# generator-gulpx [![Build Status](https://secure.travis-ci.org/keith3/generator-gulpx.png?branch=master)](https://travis-ci.org/keith3/generator-gulpx)\r\n\r\n> [Yeoman](http://yeoman.io) generator\r\n\r\n这是一个整合了[gulpjs](http://gulpjs.com)的yeoman generator，包含livereload，js、css压缩等基本任务，辅助前端开发。\r\n\r\n## Getting Started\r\n\r\n### What is Yeoman?\r\n\r\nTrick question. It\'s not a thing. It\'s this guy:\r\n\r\n![](http://i.imgur.com/JHaAlBJ.png)\r\n\r\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\r\n\r\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\r\n\r\n```bash\r\n$ npm install -g yo\r\n```\r\n\r\n### Yeoman Generators\r\n\r\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\r\n\r\nTo install generator-gulpx from npm, run:\r\n\r\n```bash\r\n$ npm install -g generator-gulpx\r\n```\r\n\r\nFinally, initiate the generator:\r\n\r\n```bash\r\n$ yo gulpx\r\n```\r\n\r\nStart a local server to enable livereload:\r\n\r\n```bash\r\n$ gulp\r\n```\r\n\r\n### Getting To Know Yeoman\r\n\r\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\r\n\r\n\r\n## License\r\n\r\nMIT',
+53 silly publish   readmeFilename: 'README.md',
+53 silly publish   bugs: { url: 'https://github.com/keith3/generator-gulpx/issues' },
+53 silly publish   homepage: 'https://github.com/keith3/generator-gulpx',
+53 silly publish   _id: 'generator-gulpx@0.0.1',
+53 silly publish   _shasum: 'b793bcc518e2a725073e46c4ccb5415390c9dd6d',
+53 silly publish   _from: '.' }
+54 verbose url raw generator-gulpx
+55 verbose url resolving [ 'https://registry.npmjs.org/', './generator-gulpx' ]
+56 verbose url resolved https://registry.npmjs.org/generator-gulpx
+57 info trying registry request attempt 1 at 14:47:14
+58 http PUT https://registry.npmjs.org/generator-gulpx
+59 http 401 https://registry.npmjs.org/generator-gulpx
+60 verbose headers { date: 'Sun, 27 Jul 2014 06:47:28 GMT',
+60 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+60 verbose headers   'content-type': 'application/json',
+60 verbose headers   'cache-control': 'max-age=60',
+60 verbose headers   'content-length': '67',
+60 verbose headers   'accept-ranges': 'bytes',
+60 verbose headers   via: '1.1 varnish',
+60 verbose headers   'x-served-by': 'cache-ty67-TYO',
+60 verbose headers   'x-cache': 'MISS',
+60 verbose headers   'x-cache-hits': '0',
+60 verbose headers   'x-timer': 'S1406443648.468953,VS0,VE442',
+60 verbose headers   'keep-alive': 'timeout=10, max=50',
+60 verbose headers   connection: 'Keep-Alive' }
+61 error publish Failed PUT 401
+62 error Error: unauthorized Name or password is incorrect.: generator-gulpx
+62 error     at RegClient.<anonymous> (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+62 error     at Request._callback (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+62 error     at Request.self.callback (D:\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+62 error     at Request.EventEmitter.emit (events.js:98:17)
+62 error     at Request.<anonymous> (D:\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+62 error     at Request.EventEmitter.emit (events.js:117:20)
+62 error     at IncomingMessage.<anonymous> (D:\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+62 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+62 error     at _stream_readable.js:919:16
+62 error     at process._tickCallback (node.js:419:13)
+63 error If you need help, you may report this *entire* log,
+63 error including the npm and node versions, at:
+63 error     <http://github.com/npm/npm/issues>
+64 error System Windows_NT 6.1.7601
+65 error command "D:\\nodejs\\\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+66 error cwd D:\nodejs\code\gulp_livereload
+67 error node -v v0.10.28
+68 error npm -v 1.4.9
+69 verbose exit [ 1, true ]
