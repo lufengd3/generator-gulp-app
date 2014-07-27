@@ -13,7 +13,7 @@ gulp.task('server', function() {
     livereload: true
   });
 
-  gulp.watch(['app/*.html'], ['pageReload']);
+  gulp.watch(['app/*'], ['pageReload']);
 });
 
 gulp.task('pageReload', function() {
