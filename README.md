@@ -1,8 +1,8 @@
-# generator-gulpx [![Build Status](https://secure.travis-ci.org/keith3/generator-gulpx.png?branch=master)](https://travis-ci.org/keith3/generator-gulpx)
+# generator-gulpx 
 
 > [Yeoman](http://yeoman.io) generator
 
-这是一个整合了[gulpjs](http://gulpjs.com)的yeoman generator，包含livereload，js、css压缩等基本任务，辅助前端开发。
+这是一个整合了[gulpjs](http://gulpjs.com) livereload功能的yeoman generator。
 
 ## Getting Started
 
