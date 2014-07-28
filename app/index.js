@@ -48,13 +48,11 @@ var GulpxGenerator = yeoman.generators.Base.extend({
 
   app: function () {
     this.mkdir('app');
-    this.mkdir('app/src/js');
-    this.mkdir('app/src/css');
-    this.mkdir('app/dest/js');
-    this.mkdir('app/dest/css');
-    this.mkdir('app/image');
+    this.mkdir('app/js');
+    this.mkdir('app/css');
+    this.mkdir('app/images');
     this.copy('index.html', 'app/index.html');
-    this.copy('_package.json', 'package.json');
+    this.copy('jquery-1.11.1.min.js', 'app/js/jquery.js');
   },
 
   gulp: function() {

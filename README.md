@@ -2,7 +2,18 @@
 
 > [Yeoman](http://yeoman.io) generator
 
-这是一个整合了[gulpjs](http://gulpjs.com) livereload功能的yeoman generator。
+这是一个整合了[gulpjs](http://gulpjs.com) livereload功能的yeoman generator
+
+生成的项目结构：
+- app/
+	- index.html
+	- js/
+		jquery-1.11.1.min.js
+	- css/
+	- images/
+- node_modules/
+- gulpfile.js
+- package.json
 
 ## Getting Started
 
