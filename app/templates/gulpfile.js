@@ -1,8 +1,7 @@
 'use strict';
 
 var gulp = require('gulp'),
-    connect = require('gulp-connect'),
-    uglify = require('gulp-uglify');
+    connect = require('gulp-connect');
 
 gulp.task('default', ['clean', 'server'], function () {
 });
@@ -17,16 +16,9 @@ gulp.task('server', function() {
 });
 
 gulp.task('pageReload', function() {
-  gulp.src('app/*.html')
+  gulp.src('app/*')
     .pipe(connect.reload());
 });
 
 gulp.task('clean', function() {
-});
-
-// Minify javascript files
-gulp.task('uglify', function() {
-  gulp.src('/app/src/*.js')
-    .pipe(uglify())
-    .pipe(gulp.dest('/app/dest/js/'))
 });
