@@ -13,7 +13,6 @@
 	- images/
 - node_modules/
 - gulpfile.js
-- package.json
 
 ## Getting Started
 
