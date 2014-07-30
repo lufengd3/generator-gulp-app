@@ -56,7 +56,7 @@ Start a local server to enable livereload:
 $ gulp
 ```
 
-### Done! Visit http://localhost:8080 and write your code just save without refresh broswer !
+### Done! Visit (http://localhost:8080)[http://localhost:8080] and write your code just save without refresh broswer !
 
 ## License
 
