@@ -2,9 +2,10 @@
 
 > [Yeoman](http://yeoman.io) generator
 
-这是一个整合了[gulpjs](http://gulpjs.com) livereload功能的yeoman generator
+This is a webapp yeoman generator with [gulpjs](http://gulpjs.com) && livereload.
 
-生成的项目结构：
+
+when you use this generator, it will generate a project struct as below：
 - app/
 	- index.html
 	- js/
@@ -16,6 +17,8 @@
 - package.json
 
 ## Getting Started
+
+### [What's livereload](http://lufeng.me/post/livereload)
 
 ### What is Yeoman?
 
@@ -53,10 +56,7 @@ Start a local server to enable livereload:
 $ gulp
 ```
 
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
+### Done! Visit http://localhost:8080 and write your code just save without refresh broswer !
 
 ## License
 
