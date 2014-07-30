@@ -12,11 +12,11 @@ gulp.task('server', function() {
     livereload: true
   });
 
-  gulp.watch(['app/*'], ['pageReload']);
+  gulp.watch(['app/**/*'], ['pageReload']);
 });
 
 gulp.task('pageReload', function() {
-  gulp.src('app/*')
+  gulp.src('app/')
     .pipe(connect.reload());
 });
 
