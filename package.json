@@ -1,6 +1,6 @@
 {
   "name": "generator-gulpx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A yeoman generator with gulp livereload",
   "license": "MIT",
   "main": "app/index.js",
