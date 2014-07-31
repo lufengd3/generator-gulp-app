@@ -58,7 +58,7 @@ var GulpxGenerator = yeoman.generators.Base.extend({
 
   gulp: function() {
     var done = this.async();
-    this.npmInstall(['gulp', 'gulp-connect'], { 'saveDev': true }, done);
+    this.npmInstall(['gulp', 'gulp-connect', 'gulp-open'], { 'saveDev': true }, done);
     this.template('gulpfile.js');
   },
 });
