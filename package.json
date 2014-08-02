@@ -1,10 +1,10 @@
 {
   "name": "generator-gulp-app",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A yeoman generator with gulp livereload",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "keith3/generator-gulpx",
+  "repository": "keith3/generator-gulp-app",
   "author": {
     "name": "lufeng",
     "email": "lufengd3@gmail.com",
