@@ -1,33 +1,28 @@
 'use strict';
-
-var gulp = require('gulp'),
-	open = require('gulp-open'),
-    connect = require('gulp-connect');
-
+// generated on <%= (new Date).toISOString().split('T')[0] %> using <%= pkg.name %> <%= pkg.version %>
+var gulp = require('gulp');
+var $ = require('gulp-load-plugins')();
 var serverPort = 8080;
+var livereloadPort = 35729;
+var defaultTask = ['connectServer', 'broswer', 'liveServer', 'watch'];
 
-gulp.task('default', ['clean', 'server', 'broswer'], function () {
-});
-
-gulp.task('server', function() {
-  connect.server({
+gulp.task('connectServer', $.serve({
     root: 'app',
     port: serverPort,
-    livereload: true
-  });
+    middleware: require('connect-livereload')({port: livereloadPort})
+}));
 
-  gulp.watch(['app/**/*'], ['pageReload']);
+gulp.task("broswer", ['connectServer'], function(){
+    gulp.src("app/index.html")
+    .pipe($.open("", {url: "http://localhost:" + serverPort}));
 });
 
-gulp.task('pageReload', function() {
-  gulp.src('app/')
-    .pipe(connect.reload());
+gulp.task('liveServer', function() {
+    $.livereload.listen(livereloadPort);
 });
 
-gulp.task("broswer", ['server'], function(){
-  gulp.src("app/index.html")
-  .pipe(open("", {url: "http://localhost:" + serverPort}));
-});
-
-gulp.task('clean', function() {
+gulp.task('watch', function() {
+    $.watch({glob: ['app/*.html', 'app/css/*.css', 'app/js/*.js', 'app/images/**/*']}, function() {
+        $.livereload.changed("file", livereloadPort);
+    });
 });

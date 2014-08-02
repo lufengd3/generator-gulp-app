@@ -3,5 +3,5 @@ node_js:
   - '0.10'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-gulpx' ]; then cd .. && eval "mv $currentfolder generator-gulpx" && cd generator-gulpx; fi
+  - if [ "$currentfolder" != 'generator-yotest' ]; then cd .. && eval "mv $currentfolder generator-yotest" && cd generator-yotest; fi
 

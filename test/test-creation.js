@@ -3,14 +3,14 @@
 var path = require('path');
 var helpers = require('yeoman-generator').test;
 
-describe('gulpx generator', function () {
+describe('yotest generator', function () {
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
       if (err) {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('gulpx:app', [
+      this.app = helpers.createGenerator('yotest:app', [
         '../../app'
       ]);
       done();
