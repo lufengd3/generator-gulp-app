@@ -3,7 +3,7 @@ var yeoman = require('yeoman-generator');
 var yosay = require('yosay');
 var chalk = require('chalk');
 
-var GulpxGenerator = yeoman.generators.Base.extend({
+var GulpAppGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
 
@@ -24,9 +24,13 @@ var GulpxGenerator = yeoman.generators.Base.extend({
       name: 'features',
       message: 'Choose the module which you will use in this project: ',
       choices: [{
+        name: 'jQuery',
+        value: 'withJquery',
+        checked: true
+      },{
         name: 'less',
         value: 'withLess',
-        checked: true
+        checked: false
       },{
         name: 'coffee',
         value: 'withCoffee',
@@ -49,6 +53,7 @@ var GulpxGenerator = yeoman.generators.Base.extend({
         return features && features.indexOf(key) !== -1;
       }
 
+      this.installJquery = hasFeature('withJquery');
       this.installLess = hasFeature('withLess');
       this.installUglify = hasFeature('withUglify');
       this.installCoffee = hasFeature('withCoffee');
@@ -65,7 +70,6 @@ var GulpxGenerator = yeoman.generators.Base.extend({
     this.mkdir('app/images');
     
     this.copy('index.html', 'app/index.html');
-    this.copy('jquery-1.11.1.min.js', 'app/js/jquery.min.js');
     this.copy('style.css', 'app/css/style.css');
     this.copy('gulplogo.png', 'app/images/gulplogo.png');
   },
@@ -97,6 +101,10 @@ var GulpxGenerator = yeoman.generators.Base.extend({
     ];
     this.pluginArray = [];
 
+    if (this.installJquery) {
+      this.copy('jquery-1.11.1.min.js', 'app/js/jquery.min.js');
+    }
+
     if (this.installLess) {
       plugins.push('gulp-less', 'gulp-sourcemaps');
       this.pluginArray.push('less');
@@ -127,4 +135,4 @@ var GulpxGenerator = yeoman.generators.Base.extend({
   }
 });
 
-module.exports = GulpxGenerator;
+module.exports = GulpAppGenerator;

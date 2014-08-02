@@ -1,4 +1,4 @@
-# [generator-gulpx ](https://github.com/keith3/generator-gulpx)
+# [generator-gulp-app ](https://github.com/keith3/generator-gulp-app)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -29,12 +29,12 @@ when you use this generator, it will generate a project struct as below：
 ```bash
 $ npm install -g yo
 
-$ npm install -g generator-gulpx
+$ npm install -g generator-gulp-app
 ```
 initiate the generator:
 
 ```bash
-$ yo gulpx
+$ yo gulp-app
 ```
 
 Start a local server to enable livereload:
