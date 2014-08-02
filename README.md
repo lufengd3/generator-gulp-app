@@ -22,7 +22,7 @@ when you use this generator, it will generate a project struct as below：
 - gulpfile.js
 - package.json
 - bower.json
-- README
+- README.md
 
 ## Getting Started
 
