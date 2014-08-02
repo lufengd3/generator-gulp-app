@@ -1,6 +1,6 @@
 {
   "name": "generator-gulp-app",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A yeoman generator with gulp livereload",
   "license": "MIT",
   "main": "app/index.js",
