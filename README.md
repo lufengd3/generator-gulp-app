@@ -15,7 +15,7 @@ Scaffolds out a complete project directory structure for you:
     │   └── js
     │   │   └── coffee
     │   └── images/
-    │   │   └── gulplogo.png
+    │       └── gulplogo.png
     ├── node_modules/
     ├── bower.json
     ├── package.json
