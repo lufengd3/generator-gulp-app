@@ -2,22 +2,24 @@
 
 > [Yeoman](http://yeoman.io) generator
 
-This is a webapp yeoman generator with [gulpjs](http://gulpjs.com) && livereload.
+This is a yeoman webapp generator with [gulpjs](http://gulpjs.com) && livereload.
 
-when you use this generator, it will generate a project struct as below：
-- app/
-	- index.html
-	- js/
-    	- coffee/ *if installed coffee plugin*
-    		- hello.coffee
-		- jquery-1.11.1.min.js
-	- css/
-    	- less/ *if installed less plugin*
-    		- style.less
-        - maps/ *if installed less plugin*
-    	- style.css
-	- images/
-    	- gulplogo.png
+Scaffolds out a complete project directory structure for you:
+
+    .
+    ├── app
+    │   ├── index.html
+    │   └── css
+    │   │   ├── less/
+    │   │   └── style.css
+    │   └── js
+    │   │   └── coffee
+    │   └── images/
+    │   │   └── gulplogo.png
+    ├── bower.json
+    ├── package.json
+    └── README.md
+
 - node_modules/
 - gulpfile.js
 - package.json
