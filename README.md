@@ -16,15 +16,11 @@ Scaffolds out a complete project directory structure for you:
     │   │   └── coffee
     │   └── images/
     │   │   └── gulplogo.png
+    ├── node_modules/
     ├── bower.json
     ├── package.json
     └── README.md
 
-- node_modules/
-- gulpfile.js
-- package.json
-- bower.json
-- README.md
 
 ## Getting Started
 
