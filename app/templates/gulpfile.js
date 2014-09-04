@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var serverPort = 8080;
 var livereloadPort = 35729;
-var defaultTask = ['connectServer', 'broswer', 'liveServer', 'watch'];
+var defaultTask = ['connectServer', 'broswer', 'liveServer'];
 
 gulp.task('connectServer', $.serve({
     root: 'app',
