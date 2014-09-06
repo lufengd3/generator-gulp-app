@@ -21,7 +21,7 @@ module.exports = function addtogulp(plugins) {
 	var coffee = "\n\n//compile coffee script"
 				+ "\ngulp.task('coffee', function() {"
 				+ "\n  gulp.src('app/js/coffee/*.coffee')"
-				+ "\n    .pipe($.coffee({bare: true})"
+				+ "\n    .pipe($.coffee({bare: true}))"
 				+ "\n    .on('error', console.error.bind('error'))"
 				+ "\n    .pipe(gulp.dest('app/js/'))"
 				+ "\n});"
