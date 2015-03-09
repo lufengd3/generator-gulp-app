@@ -22,7 +22,7 @@ gulp.task('liveServer', function() {
 });
 
 gulp.task('watch', function() {
-    $.watch({glob: ['app/*.html', 'app/css/*.css', 'app/js/*.js', 'app/images/**/*']}, function() {
+    $.watch(['app/*.html', 'app/css/*.css', 'app/js/*.js', 'app/images/**/*'], function() {
         $.livereload.changed("file", livereloadPort);
     });
 });
